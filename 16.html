@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Students mark percentage</title>
+        <script type="text/javascript">
+            var mark= new Array(99,100,50,65,90);
+            var sum=0;
+            var per=0;
+                for(i=0;i<mark.length;i++){
+                    sum=sum+mark[i];
+                }
+                per=sum*100/500;
+                if(per>60){
+                    alert("student has passed the examination");
+                }
+            else{
+                alert("Failed");
+            }
+        </script>
+        
+    </head>
+    <body>
+    </body>
+</html>

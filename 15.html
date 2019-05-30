@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>if statement</title>
+        <script type="text/javascript">
+            var markMithun= new Array(99,93,50);
+            var markArun= new Array(96,83,50);
+            document.write("Marks for Mithun: "+markMithun+"<br/>");
+              var  sum=0;
+                for(i=0;i<markMithun.length;i++){
+                    sum=sum+markMithun[i];
+                }
+            document.write("Total is: "+ sum+"<br/>");
+            document.write("Marks for Arun: "+markArun+"<br/>");
+             var   sum1=0;
+                for(i=0;i<markArun.length;i++){
+                    sum1=sum1+markArun[i];
+                }
+            document.write("Total is: "+ sum1+"<br/>");
+                var gr=0;
+                var gr1=0;
+            if(sum>sum1){
+                gr=sum-sum1;
+                alert("Mithun has got "+gr+" marks more than Arun");
+            }
+            
+            else{
+                gr1=sum1-sum;
+                alert("Arun has got "+gr1+" marks more than Mithun");
+            }
+        </script>
+    </head>
+    <body></body>
+</html>

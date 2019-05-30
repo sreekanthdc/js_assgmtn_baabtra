@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Global and local variables</title>
+        <script type="text/javascript">
+            var outside="apple";
+            function printOutside(){
+                var inside="apple";
+                
+                document.write(inside+" inside function <br/>")
+            }
+            document.write("Global"+"<br/>");
+            printOutside();
+            document.write(outside+" outside function <br/>");
+            document.write("Local"+"<br/>");
+            printOutside();
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
